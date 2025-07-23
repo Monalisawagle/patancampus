@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('https://www.pmcecodtu.edu.np/public/uploads/Slider/photo1-64103.JPG');
+    
+    background-position:center;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1% 4%;
+
+}
+nav a{
+ color:white;
+ font-size: x-large;
+text-decoration: none;
+}
+nav a span{
+    color:rgb(255, 255, 21);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+   }
+
+.nav-links{
+  flex: 1;
+  text-align: right;  
+}
+
+.nav-links ul li{
+  display: inline-block;
+  margin: 5px 20px;
+   
+  }
+ .nav-links ul li a{
+    font-size: 14px;
+    text-decoration: none;
+   
+  }
+  .nav-links ul li a::after{
+   content: '';
+   display: block;
+   margin: auto;
+   height: 3px;
+   width: 0%;
+   background: rgb(247, 247, 4);
+   transition: .6s;
+  }
+  .nav-links ul li a:hover:after{
+   width: 100%;
+   } 
+
+   
+.text-box{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+   width: 90%;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+.text-box h1{
+   color: #fff;
+    font-size:55px; 
+   }
+
+   .text-box p{
+    color:white;
+    font-size: 14px;
+   }
+
+   .text-box a{
+    color:white;
+    font-size:14px ;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    border: 1px solid #fff;
+    background: transparent;
+    transition: .6s;
+
+   }
+   .text-box a:hover{
+   background: #f1f111; 
+   border: 1px solid  #f1f111;
+   }
+
+
+   @media(max-width: 660px){
+    .text-box h1{
+        font-size: 32px;
+    }
+    
+   }
+
+  
+   
