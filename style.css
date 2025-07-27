@@ -100,7 +100,8 @@ nav a span{
 
    @media(max-width: 660px){
     .text-box h1{
-        font-size: 32px;
+
+         font-size: 32px;
     }
    
      .header {
@@ -116,6 +117,4 @@ nav a span{
     margin-top: 30vh;
   }
    }
-
-  
    
